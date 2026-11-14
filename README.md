@@ -10,4 +10,12 @@ An end-to-end product analytics case study: metrics design, A/B test analysis, v
 ## Notebooks
 - `notebooks/01_streak_notification_ab_test.ipynb`
 ## Status
-In progress
+In Progress
+## Key findings so far
+- With 10,000 users, the A/B test found no significant difference
+  (lift -0.04%, p = 0.984), even though a true +2% lift exists.
+- This is a false negative: high variation in snap counts means the test
+  was underpowered at this sample size.
+
+  ## Tools
+Python, pandas, NumPy, DuckDB, Google Colab
